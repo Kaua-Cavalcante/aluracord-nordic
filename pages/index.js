@@ -95,6 +95,7 @@ export default function PaginaInicial() {
 
             <TextField
               value={username}
+              
               onChange={function (event) {
                 const valor = event.target.value;
                 setUsername(valor);
@@ -140,6 +141,7 @@ export default function PaginaInicial() {
             }}
           >
             <Image
+              id="profile"
               styleSheet={{
                 borderRadius: "50%",
                 marginBottom: "16px",
